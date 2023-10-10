@@ -1,4 +1,4 @@
-langage: pt
+#language: pt
 
 Funcionalidade: Tela de Login
 Como cliente da Ebac_shop quero me atutenticar e ser direcionado para tela de checkout

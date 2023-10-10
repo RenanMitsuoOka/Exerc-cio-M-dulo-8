@@ -1,4 +1,4 @@
-langage: pt
+#language: pt
 
 Funcionalidade: Tela de cadastro
 Como cliente da Ebac_shop quero concluir meu cadastro para finalizar minhas compras.
@@ -7,35 +7,35 @@ Cenário: Criação de novo usuario
 
 Quando eu digitar o <Nome>
 E o nome estiver vazio
-Então: deve existir um alerta "Campo com * é de preenchimento obrigatorio"
+Então deve existir um alerta "Campo com * é de preenchimento obrigatorio"
 
 Quando eu digitar o <sobremone>
 E o sobremone estiver vazio
-Então: deve existir um alerta "Campo com * é de preenchimento obrigatorio"
+Então deve existir um alerta "Campo com * é de preenchimento obrigatorio"
 
 Quando eu digitar o <Endereço>
 E o Endereço estiver vazio
-Então: deve existir um alerta "Campo Endereço é de preenchimento obrigatorio"
+Então deve existir um alerta "Campo Endereço é de preenchimento obrigatorio"
 
 Quando eu digitar o <Cidade>
 E o Cidade estiver vazio
-Então: deve existir um alerta "Campo cidade é de preenchimento obrigatorio"
+Então deve existir um alerta "Campo cidade é de preenchimento obrigatorio"
 
 Quando eu digitar o <CEP>
 E o CEP estiver vazio
-Então: deve existir um alerta "Campo cep é de preenchimento obrigatorio"
+Então deve existir um alerta "Campo cep é de preenchimento obrigatorio"
 
 Quando eu digitar o <Telefone>
 E o Telefone estiver vazio
-Então: deve existir um alerta "Campo telefone é de preenchimento obrigatorio"
+Então deve existir um alerta "Campo telefone é de preenchimento obrigatorio"
 
 Quando eu digitar o <Email>
 E o Email estiver vazio
-Então: deve existir um alerta "O Email é de preenchimento obrigatorio"
+Então deve existir um alerta "O Email é de preenchimento obrigatorio"
 
 Quando eu digitar o <email>
 E o Email for invalido
-Então: deve existir um alerta "O Email é deve ser valido"
+Então deve existir um alerta "O Email é deve ser valido"
 
 Então deve exibir <mensagem> de sucesso 
 
