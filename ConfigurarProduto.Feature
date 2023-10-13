@@ -14,7 +14,7 @@ Exemplos
 |Camiseta|Verde|10        |Produto adicionado no carrinho|
 |Camiseta|azul |11        |Limite de 10 peças atingido   |
 
-Funcionalidade: Limpar carrinho
+Cenario: Limpar carrinho
 Como cliente da EBAC-SHOP Quero que ao clicar no botão Limpar meu carrinho deve voltar ao status original
 Contexto: Dado que eu click no botão limpar
 Quando eu clicar no botão limpar
